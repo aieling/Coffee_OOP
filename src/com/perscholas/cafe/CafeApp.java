@@ -6,9 +6,9 @@ public class CafeApp {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-			Product coffee = new Product("coffee",2,"good coffee");
-			Product espresso = new Product("espresso",3,"good espresso");
-			Product cappuccino = new Product("cappuccino",4,"good cappuccino");
+			Coffee coffee = new Coffee("coffee",2,"good coffee", true, false);
+			Espresso espresso = new Espresso("espresso",3,"good espresso",false, true);
+			Cappuccino cappuccino = new Cappuccino("cappuccino",4,"good cappuccino",false, false);
 			
 			System.out.println("How many do you want?");
 			Scanner sc = new Scanner(System.in);
